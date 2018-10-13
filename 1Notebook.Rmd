@@ -2,9 +2,6 @@
 
 
 
-
-
-
 *text* or _text_ gives italic
 **Bold**
 3~rd gives the subscripting
@@ -77,7 +74,11 @@ plot(cars, pch = 19)
 plot(pressure, pch = 17)
 ```
 
+- Tables
 
+```{r tables-mtcars}
+knitr::kable(iris[1:5,], caption = 'A Caption')
+```
     
     
     
