@@ -1,0 +1,109 @@
+
+
+
+
+
+
+
+*text* or _text_ gives italic
+**Bold**
+3~rd gives the subscripting
+3^rd gives you super
+
+Hyperlinks [text](link)
+^[this is a footnote]
+
+**HEADERS**
+
+# first-level Header
+
+## Second-level header
+
+### Thrid-level Header
+
+# For numbering the headers add this {-}
+
+# for unbumber {.unnumbered}
+
+# Preface{-}
+
+Indenting * - or +
+
+> Block Quotes 
+> -- Praveen
+
+    Where all of this is coming from and I thought we are fine
+    
+```{r, chunk-label, results='hide', fig.height=4}
+
+### eval: evaluates a code chunk
+### echo: echo source code or not
+### results: 'hide', 'asis'? idk
+
+```
+
+```{r}
+### collapse: 'True' or "FALSE':make the output compact by merging the text output and source code into a single code block in the output
+### include: 
+### warning: FALSE
+### message: FALSE
+```
+    
+```{r}
+### fig.width; fig.height; in single option = fig.dim = c(3,2); width followed by height.
+```
+
+```{r}
+### out.width; out.height is for output width and height in percentatges
+### fig.aligh: left center or right
+### dev: record r plots: pdf for latex, png for html, svg or jpeg
+### fig.cap: caption for figure
+### child: opens child document and Idk wtf this is;
+```
+
+
+- To use certain option multiple times we can use it initially
+
+```{r, setup, include = FALSE}
+knitr::opts_chunk$set(fig.width = 6, collapse = TRUE)
+
+```
+
+- Figures
+
+```{r}
+par(mar = c(4,4,0.2,0.1))
+plot(cars, pch = 19)
+plot(pressure, pch = 17)
+```
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
