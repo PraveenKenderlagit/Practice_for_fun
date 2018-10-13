@@ -8,3 +8,4 @@ c <- b - 1
 
 d <- a[c[[2]]]
        
+GreatItsWorking <- c(a,b,c,d)
